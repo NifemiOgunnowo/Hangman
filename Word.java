@@ -7,8 +7,6 @@ public class Word {
         for (int i = 0; i < word.length(); i++) {
             letters[i] = new Letter(word.charAt(i));
         }
-
-
     }
 
     public String getLetters() {

@@ -1,5 +1,5 @@
 public class Letter {
-    private char value;
+    private final char value;
     private boolean revealed = false;
 
     public Letter(char value) {
